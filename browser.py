@@ -2,7 +2,7 @@
 import sys
 import ssl
 import socket
-__init__ 
+
 def request(url):
     scheme, url = url.split("://", 1)
     assert scheme in ["http", "https"], "Unknown scheme {}".format(scheme)
